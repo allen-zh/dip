@@ -9,11 +9,11 @@ if($_POST){
 else
 	$name = 'sunshine.jpg';
 $path = 'img/'.$name;
-$temp_path = 'img/grey_'.$name;
-$temp_path1 = 'img/jh_'.$name;
-$temp_path2 = 'img/zsj_'.$name;
-$temp_path3 = 'img/fsj_'.$name;
-$temp_path4 = 'img/zt_'.$name;
+$temp_path = 'temp/grey_'.$name;
+$temp_path1 = 'temp/jh_'.$name;
+$temp_path2 = 'temp/zsj_'.$name;
+$temp_path3 = 'temp/fsj_'.$name;
+$temp_path4 = 'temp/zt_'.$name;
 
 
 //ignore_user_abort();//
